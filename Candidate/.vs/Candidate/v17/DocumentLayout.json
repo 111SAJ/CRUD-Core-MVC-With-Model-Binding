@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\models\\employeeskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\models\\employeeskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|c:\\users\\sayed asad jamal\\documents\\visual studio 2022\\practice_project\\candidate\\candidate\\views\\city\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAC90FF4-8801-4E4A-A4D0-5C794BB341F4}|Candidate\\Candidate.csproj|solutionrelative:candidate\\views\\city\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Candidate\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Candidate\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-12T10:12:54.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Candidate\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "Candidate\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T09:56:34.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Candidate\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Candidate\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T16:27:58.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "Candidate\\Models\\Skill.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\Skill.cs",
+              "RelativeToolTip": "Candidate\\Models\\Skill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T13:45:03.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Candidate\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\Employee.cs",
+              "RelativeToolTip": "Candidate\\Models\\Employee.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:05:24.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Candidate\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Candidate\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAABoBAAAAAAAAAAAqwCcBAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T09:47:42.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "Candidate\\ViewModel\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeToolTip": "Candidate\\ViewModel\\EmployeeViewModel.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T09:41:05.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "Candidate\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Candidate\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T10:12:21.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Candidate\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Candidate\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T10:02:37.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Candidate\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Candidate\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T16:12:10.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeSkill.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\EmployeeSkill.cs",
+              "RelativeDocumentMoniker": "Candidate\\Models\\EmployeeSkill.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\EmployeeSkill.cs",
+              "RelativeToolTip": "Candidate\\Models\\EmployeeSkill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T10:35:36.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\State.cs",
+              "RelativeDocumentMoniker": "Candidate\\Models\\State.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\State.cs",
+              "RelativeToolTip": "Candidate\\Models\\State.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T14:28:20.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Candidate\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Candidate\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T10:53:24.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\City\\Create.cshtml",
+              "RelativeDocumentMoniker": "Candidate\\Views\\City\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Views\\City\\Create.cshtml",
+              "RelativeToolTip": "Candidate\\Views\\City\\Create.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T10:31:16.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Candidate\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Sayed Asad Jamal\\Documents\\Visual Studio 2022\\Practice_Project\\Candidate\\Candidate\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Candidate\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T12:28:13.593Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

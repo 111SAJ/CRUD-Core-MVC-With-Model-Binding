@@ -1,0 +1,90 @@
+﻿@model Candidate.ViewModel.EmployeeViewModel
+
+@{
+    ViewData["Title"] = "Employee Update";
+}
+
+<h3 class="text-center pb-3">EMPLOYEE UPDATE</h3>
+
+<a class="btn btn-sm btn-primary shadow" asp-controller="Employee" asp-action="Index">Back</a>
+
+<form asp-controller="Employee" asp-action="Edit" method="post" enctype="multipart/form-data">
+
+    <input type="hidden" id="EmployeeId" name="EmployeeId" value="@Model.EmployeeId" />
+    
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" class="form-control" value="@Model.Name"/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email" class="form-control" value="@Model.Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Mobile">Mobile</label>
+        <input type="number" id="Mobile" name="Mobile" class="form-control" value="@Model.Mobile" />
+        <span asp-validation-for="Mobile" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="StateId">State</label>
+        <select id="StateId" name="StateId" class="form-control" asp-for="StateId" asp-items="Model.States" onchange="this.form.submit()">
+            <option value="">-- Select State --</option>
+        </select>
+        <span asp-validation-for="StateId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="CityId">City</label>
+        <select id="CityId" name="CityId" class="form-control" asp-for="CityId" asp-items="Model.Cities">
+            <option value="">-- Select City --</option>
+        </select>
+        <span asp-validation-for="CityId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Address">Address</label>
+        <textarea id="Address" name="Address" class="form-control">@Model.Address</textarea>
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Gender">Gender</label><br />
+        <input type="radio" id="Male" name="Gender" value="Male" @(Model.Gender == "Male" ? "checked" : "") />
+        <label for="Male">Male</label><br />
+
+        <input type="radio" id="Female" name="Gender" value="Female" @(Model.Gender == "Female" ? "checked" : "") />
+        <label for="Female">Female</label><br />
+
+        <input type="radio" id="Other" name="Gender" value="Other" @(Model.Gender == "Other" ? "checked" : "") />
+        <label for="Other">Other</label><br />
+
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Skills:</label>
+        @foreach (var skill in Model.Skills)
+        {
+            <div>
+                <input type="checkbox" id="skill_@skill.Value" name="SelectedSkillIds" value="@skill.Value"
+                @(Model.SelectedSkillIds.Contains(int.Parse(skill.Value)) ? "checked" : "") />
+                <label for="skill_@skill.Value">@skill.Text</label>
+            </div>
+        }
+        <span asp-validation-for="SelectedSkillIds" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label for="Profile">Profile Picture</label>
+        <input type="file" id="Profile" name="profileFile" class="form-control" />
+        <span asp-validation-for="Profile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

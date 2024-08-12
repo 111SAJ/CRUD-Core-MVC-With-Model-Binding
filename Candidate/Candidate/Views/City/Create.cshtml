@@ -1,0 +1,25 @@
+﻿@model City
+
+@{
+    ViewData["Title"] = "City Create";
+}
+
+<h3 class="text-center pb-3">CITY CREATE</h3>
+
+<form asp-controller="City" asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="CityName">City</label>
+        <input for="CityName" id="CityName" name="CityName" class="form-control" />
+        <span asp-validation-for="CityName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="StateId">State</label>
+        <select for="StateId" id="StateId" name="StateId" class="form-control" asp-items="@ViewBag.States">
+            <option disabled selected value="">[SELECT]</option>
+        </select>
+        <span asp-validation-for="StateId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

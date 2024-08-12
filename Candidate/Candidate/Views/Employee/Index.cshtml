@@ -1,0 +1,53 @@
+﻿@model List<Candidate.ViewModel.EmployeeViewModel>
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h3 class="text-center pb-3">EMPLOYEE LIST</h3>
+
+<a class="btn btn-sm btn-primary shadow" asp-controller="Employee" asp-action="Create">Create</a>
+
+<div class="o-flow">
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Mobile</th>
+            <th scope="col">Address</th>
+            <th scope="col">Gender</th>
+            <th scope="col">No. of Skills</th>
+            <th scope="col">Profile</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Name</td>
+                <td>@employee.Email</td>
+                <td>@employee.Mobile</td>
+                <td>@employee.Address - @employee.CityName - @employee.StateName</td>
+                <td>@employee.Gender</td>
+                <td>@employee.SelectedSkillIds.Count</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(employee.Profile))
+                    {
+                        <img src="@Url.Content("~/uploads/" + employee.Profile)" alt="Profile Picture" width="85" height="85" />
+                    }
+                    else
+                    {
+                        <span>No Profile</span>
+                    }
+                </td>
+                <td style="width: 100px;">
+                    <a class="btn btn-sm btn-primary shadow" asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.EmployeeId"><i class="fa-solid fa-pen-to-square"></i></a>
+                    <a class="btn btn-sm btn-danger shadow" asp-controller="Employee" asp-action="Delete" asp-route-id="@employee.EmployeeId"><i class="fa-solid fa-trash"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
