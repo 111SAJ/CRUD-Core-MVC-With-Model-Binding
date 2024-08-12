@@ -26,7 +26,7 @@ namespace Candidate.ViewModel
         [Required(ErrorMessage = "Gender is required")]
         public string? Gender { get; set; }
         
-        public List<int> SelectedSkillIds { get; set; } = new List<int>();
+        public List<int> SelectedSkillIds { get; set; } = new List<int>(); //This is to hold the Selected Skill Id
         public string? Profile { get; set; }
 
 
