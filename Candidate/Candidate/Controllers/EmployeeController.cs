@@ -86,7 +86,7 @@ namespace Candidate.Controllers
                     ModelState.AddModelError("Email", "Email already exist");
                     employeeViewModel.States = new SelectList(_context.State.ToList(), "StateId", "StateName");
                     employeeViewModel.Cities = new SelectList(_context.City.Where(c => c.StateId == employeeViewModel.StateId).ToList(), "CityId", "CityName");
-                    employeeViewModel.States = new SelectList(_context.Skill.ToList(), "SkillId", "SkillName");
+                    employeeViewModel.Skills = new SelectList(_context.Skill.ToList(), "SkillId", "SkillName");
                     return View(employeeViewModel);
                 }
 
