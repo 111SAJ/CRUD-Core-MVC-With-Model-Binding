@@ -80,6 +80,23 @@ namespace Candidate.Controllers
 
             if (ModelState.IsValid)
             {
+
+                // Validate if the CityId matches the selected StateId
+                if (employeeViewModel.StateId.HasValue && employeeViewModel.CityId.HasValue)
+                {
+                    var selectedCity = _context.City.Find(employeeViewModel.CityId);
+                    if (selectedCity == null || selectedCity.StateId != employeeViewModel.StateId.Value)
+                    {
+                        ModelState.AddModelError("CityId", "The selected city does not match the selected state.");
+                        // Re-populate the dropdown list if in case ModelState is Invalid
+                        employeeViewModel.States = new SelectList(_context.State.ToList(), "StateId", "StateName");
+                        employeeViewModel.Cities = new SelectList(_context.City.Where(c => c.StateId == employeeViewModel.StateId).ToList(), "CityId", "CityName");
+                        employeeViewModel.Skills = new SelectList(_context.Skill.ToList(), "SkillId", "SkillName");
+                        return View(employeeViewModel);
+                    }
+                }
+
+                //check if employee already exist
                 var existEmployee = await _context.Employee.FirstOrDefaultAsync(e => e.Email == employeeViewModel.Email);
                 if (existEmployee != null)
                 {
@@ -179,9 +196,19 @@ namespace Candidate.Controllers
                     .Include(e => e.EmployeeSkill)
                     .FirstOrDefault(e => e.EmployeeId == id);
 
-                if (existingEmployee == null)
+                // Validate if the CityId matches the selected StateId
+                if (employeeViewModel.StateId.HasValue && employeeViewModel.CityId.HasValue)
                 {
-                    return NotFound();
+                    var selectedCity = _context.City.Find(employeeViewModel.CityId);
+                    if (selectedCity == null || selectedCity.StateId != employeeViewModel.StateId.Value)
+                    {
+                        ModelState.AddModelError("CityId", "The selected city does not match the selected state.");
+                        // Re-populate the dropdown list if in case ModelState is Invalid
+                        employeeViewModel.States = new SelectList(_context.State.ToList(), "StateId", "StateName");
+                        employeeViewModel.Cities = new SelectList(_context.City.Where(c => c.StateId == employeeViewModel.StateId).ToList(), "CityId", "CityName");
+                        employeeViewModel.Skills = new SelectList(_context.Skill.ToList(), "SkillId", "SkillName");
+                        return View(employeeViewModel);
+                    }
                 }
 
                 // Update existing fields
